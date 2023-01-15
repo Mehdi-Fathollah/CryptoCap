@@ -1,0 +1,43 @@
+@media (max-width: 1400px) {
+  /* Login Page */
+  .background-image {
+    max-width: 65%;
+  }
+
+  .login-wrapper {
+    max-width: 35%;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Login Page */
+  .background-image {
+    width: 70rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Login Page */
+  .background-image {
+    display: none;
+  }
+
+  .login-wrapper {
+    width: 45rem;
+    max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Login Page */
+  .login-form__submit-btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+}
